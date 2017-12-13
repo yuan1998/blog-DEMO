@@ -1,0 +1,11 @@
+*{
+	margin: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#homeTitle{
+	text-align: center;
+	height: 300px;
+}
