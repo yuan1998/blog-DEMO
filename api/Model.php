@@ -47,13 +47,12 @@ class Model extends Validated{
 		$sql_key = trim($sql_key,',');
 		$sql_value = $this->tss($p);
 		$sql = "insert into $this->table ($sql_key) values $sql_value";
-		dd($sql);
-		die();
 		$r = $this->pdo->prepare($sql)->execute();
 		return $r;
 	}
 
 	public function _read($p){
+		$sql_limit = '';
 		if($p['id']){
 			$sql ="select * from $this->table where id={$p['id']}";
 		}else{
@@ -61,10 +60,12 @@ class Model extends Validated{
 			$sort = $p['sort']?: 'desc';
 			$sql_order = "order by $by $sort";
 
-			$limit = $p['limit']?:10;
-			$page = $p['page'] ?: 1;
-			$page = ( $page - 1) * $limit;
-			$sql_limit = "limit $page,$limit";
+			if($p['page']){
+				$limit = $p['limit']?:10;
+				$page = $p['page'] ?: 1;
+				$page = ( $page - 1) * $limit;
+				$sql_limit = "limit $page,$limit";
+			}
 
 
 			if($p['where']){

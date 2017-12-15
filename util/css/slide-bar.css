@@ -1,0 +1,8 @@
+#tag-bar ul{
+	padding:1em 0.5em;
+	margin: 5px;
+}
+#tag-bar h2{
+	padding: 0.6em 0.2em;
+	border-bottom:0.3em solid rgba(0,0,0,0.3);
+}

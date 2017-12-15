@@ -6,6 +6,7 @@ class User extends Model{
 	public function __construct($pdo){
 		$this->pdo = $pdo;
 	}
+	
 	public function login($p){
 		$user = $this->userVerify(['username'=>$p['username'],'password'=>$this->hash_password($p['password'])]);
 		if(!$user)

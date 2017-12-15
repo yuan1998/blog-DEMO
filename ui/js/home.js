@@ -10,7 +10,7 @@ $(function(){
 	}
 
 	function read(page,callback){
-		$.post('/a/article/read',{'page':page,'limit':1,'where':{'visible':1}}).then(function(res){
+		$.post('/a/article/read',{'page':page,'limit':10,'where':{'visible':1}}).then(function(res){
 			if(res.success)
 				callback(res.data);
 		})
@@ -79,6 +79,7 @@ $(function(){
 					</span>
 				</div>
 			`;
+			div.classList.add("article-item");
 			let el = div.querySelector('.addTagInput');
 
 			addTagEvent(item.id,el);
@@ -88,6 +89,7 @@ $(function(){
 				el.hidden = false;
 			})
 			let tagBar = div.querySelector('.tagsBar');
+			tagBar.classList.add("col");
 			getTags(item.id,TagsRender,tagBar);
 			wrap.appendChild(div);
 		}

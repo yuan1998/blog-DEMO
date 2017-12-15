@@ -9,7 +9,7 @@
     echo json(getParams(trim($uri,'/')));
     die();
   }
-
+  $uri = explode('?',$uri)[0];
 
   switch($uri){
   	case '/':
@@ -17,6 +17,9 @@
   		break;
     case '/article/editor':
       tpl('ui/page/editor');
+      break;
+    case '/article/info':
+      tpl('ui/page/article.info');
       break;
   	default:
   		tpl('ui/page/404');

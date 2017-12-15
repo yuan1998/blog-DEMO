@@ -51,7 +51,14 @@ class Article extends Model{
 		if(!$id)
 			return false;
 		$r = $this->_read(['id'=>$id]);
+		$r[0]['tags'] = $this->findTags($r[0]['id']);
 		return s($r);
+	}
+
+	public function findTags($id){
+		$r = $this->pdo->prepare("select title from tags where aid=?");
+		$r->execute([$id]);
+		return $r->fetchAll(2);
 	}
 
 	public function test(){

@@ -18,7 +18,9 @@
 				?>
 				<option value="匿名">匿名</option>
 			</select>
-			<ul class="tagList"></ul>
+			<ul class="tagList">标签：</ul>
+			<div id="tagForm"><input type="text" id="tagInput">
+			<button type="button">添加</button></div>
 			<button type="submit">发表</button>
 		</form>
 	</div>

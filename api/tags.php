@@ -16,8 +16,14 @@ class Tags extends Model{
 		$r = $this->_read($par);
 		return $r;
 	}
-	
+
+	public function multipleAdd($p){
+		$r = $this->multiAdd($p);
+		return $r ? s():e();
+	}
+
 	public function test(){
-		$this->multiAdd([['title'=>'asd','aid'=>'5'],['title'=>'asd','aid'=>'5'],['title'=>'asd','aid'=>'5']]);
+		$r = $this->multiAdd([['title'=>'asd','aid'=>'5'],['title'=>'asd','aid'=>'5'],['title'=>'asd','aid'=>'5']]);
+		return $r ? s():e();
 	}
 }
