@@ -1,6 +1,14 @@
+body{
+	background: #e5e5e5;
+}
 #homeTitle{
 	text-align: center;
 	height: 300px;
+}
+#articleWrap{
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 2px 6px #ccc;
 }
 .article-item{
 	margin: 10px;

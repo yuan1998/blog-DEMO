@@ -5,9 +5,13 @@
 	vertical-align: top;
 	font-size: 18px;
 	margin: 0 auto;
-	
 }
-body{
+
+.center{text-align: center;}
+.wrapper{
+	max-width : 990px;
+	margin: 0 auto;
+	width: 100%;
 }
 
 .col{
@@ -43,7 +47,7 @@ body{
 	width: 58.33333%;
 }
 .col-8{
-	width: 16.66666%;
+	width: 66.66666%;
 }
 .col-9{
 	width: 74.99999%;

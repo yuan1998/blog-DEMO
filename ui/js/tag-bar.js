@@ -20,10 +20,11 @@ $(function(){
 			articleRender();
 		})
 	}
+	
 	function articleRender(){
 		for(let item of articles){
 			let div = document.createElement('li');
-			div.innerHTML = `<a href="#">${item.title}</a>`
+			div.innerHTML = `<a href="/article/info?id=${item.id}">${item.title}</a>`
 			div.classList.add("article-bar-item");
 			articleBar.appendChild(div);
 		}

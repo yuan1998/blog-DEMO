@@ -1,0 +1,38 @@
+body{
+	background: #e8e8e8;
+	padding-top: 100px;
+}
+#articleContent{
+	background: #fff;
+	padding: 30px;
+	box-shadow: 0 2px 6px #ccc;
+}
+#articleContent li{
+	display: inline-block;
+}
+#articleContent > *{
+	padding: 10px 10px;
+}
+#articleContent ul{
+	padding: 0;
+}
+.nav-item{
+	margin: 1px 2px;
+}
+.tag-item{
+	padding: 1px 5px;
+	border:1px solid rgba(0,0,0,0.1);
+	background: rgba(0,0,255,0.1);
+	border-radius: 3px;
+}
+.tag-item:hover{
+	background: rgba(0,0,255,0.5);
+	color:#fff;
+}
+.articleTitle h1{
+	margin-bottom:10px;
+	font-size: 2em;
+}
+.content{
+	text-indent: 1cm;
+}

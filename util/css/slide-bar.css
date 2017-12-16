@@ -1,8 +1,21 @@
-#tag-bar ul{
-	padding:1em 0.5em;
-	margin: 5px;
-}
+
 #tag-bar h2{
 	padding: 0.6em 0.2em;
 	border-bottom:0.3em solid rgba(0,0,0,0.3);
+}
+.article-list,
+.tag-list{
+	box-shadow: 0 2px 6px #ccc;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	background: #fff;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+.tag-bar-item,
+.article-bar-item{
+	list-style: none;
+	padding: 2px 5px;
+	margin-left: 5px;
 }

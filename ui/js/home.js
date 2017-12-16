@@ -3,6 +3,8 @@ $(function(){
 
 	const wrap = document.querySelector('#articleWrap');
 
+	const articleUrl = "/article/info?id=";
+
 	init();
 
 	function init(){
@@ -42,7 +44,7 @@ $(function(){
 		for(let item of data){
 			let div = document.createElement('div');
 			div.innerHTML=`
-				<h3>${item.title}</h3>
+				<h3><a href="${articleUrl+item.id}">${item.title}</a></h3>
 				<div>
 					<ul>
 						<li>
@@ -77,6 +79,9 @@ $(function(){
 							<button type="submit">提交</button>
 						</form>
 					</span>
+				</div>
+				<div>
+					<span class="ReadBtn"><a href="${articleUrl+item.id}">Read on.</a></span>
 				</div>
 			`;
 			div.classList.add("article-item");

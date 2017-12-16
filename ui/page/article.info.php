@@ -3,11 +3,10 @@
 	$article = new Article(new_pdo());
 	$data = $article->id_read($_GET['id'])['data'][0];
 
-	if(!isset($_GET['id'])||!$data){
+	if(!isset($_GET['id'])||!$data||$data['visible']==0){
 		tpl('/ui/page/404');
 		die();
 	}
-	var_dump($data);
 
 ?>
 <!DOCTYPE html>
@@ -15,24 +14,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo $data['title']." - BLOG" ?></title>
+	<link rel="stylesheet" href="/ui/css/articleInfo.css">
 	<?php tpl('/util/component/util-js'); ?>
 	<script src="/ui/js/article.info.js"></script>
 </head>
 <body>
-	<div>
-		<div class="articleInfo">
-			<?php
-				echo "<h3>$data['title']</h3>
-					
-				"
-			?>
+	<div class="wrapper">
+		<div class="row">
+			<div class="col col-2"></div>
+			<div class="col col-8" id="articleContent"></div>
 		</div>
 	</div>
-	<div>
-		<h3>$data['title']</h3>
-		<ul>
-			<li>发表于:date('Y-m-d'){date('Y-m-d',$data[''])}</li>
-		</ul>
+	<div id="backBtn">
+		
 	</div>
 </body>
 </html>
