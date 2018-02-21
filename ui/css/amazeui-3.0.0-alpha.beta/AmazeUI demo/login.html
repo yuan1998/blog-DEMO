@@ -1,0 +1,128 @@
+<!doctype html>
+<html class="no-js fixed-layout">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Amaze UI Admin index Examples</title>
+  <meta name="description" content="这是一个 index 页面">
+  <meta name="keywords" content="index">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" href="assets/i/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+  <link rel="stylesheet" href="assets/css/amazeui.css"/>
+  <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+  以获得更好的体验！</p>
+<![endif]-->
+
+ <header class="am-topbar am-topbar-inverse">
+  <h1 class="am-topbar-brand">
+    <a href="#" class="am-text-ir"></a>
+  </h1>
+
+  <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse-2'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+  <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse-2">
+    <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+      <li><a href="javascript:;"><span class="am-mark"><span class="am-icon-bell"></span> 信息<sup>99+</sup></span></a></li>
+      <li class="am-dropdown" data-am-dropdown>
+        <a  class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+            <span class="am-mark"><span class="am-icon-calendar-check-o"></span> 进度<sup>12</sup></span>
+            <span class="am-icon-caret-down"></span>
+            </a>
+        <ul class="am-dropdown-content">
+          <li class="am-dropdown-header">进度列表</li>
+          <li><a href="#">Amaze UI</a></li>
+          <li class="am-active"><a href="#">Amaze UI Touch</a></li>
+          <li><a href="#">Amaze UI React</a></li>
+        </ul>
+      </li>
+      <li class="am-dropdown" data-am-dropdown>
+        <a  class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+            <img class="admin-user-ico" src="assets/img/user.png" alt=""> 禁言小张
+            <span class="am-icon-caret-down"></span>
+            </a>
+        <ul class="am-dropdown-content">
+          <li class="am-dropdown-header">个人资料</li>
+          <li><a href="#">资料设置</a></li>
+          <li class="am-active"><a href="#">个人中心</a></li>
+        </ul>
+      </li>
+      <li><a href="javascript:;"><span class="am-icon-close"></span> 退出</a></li>
+    </ul>
+  </div>
+</header>
+<div class="login-cover">
+    <div class="login-info am-cf">
+        <div class="login-info-form">
+            <div class="login-info-form-content">
+                <div class="am-g">
+                <div class="am-u-lg-12">
+                    <div class="login-logo">
+                        <img src="assets/i/logo-off.png" alt="">
+                    </div>
+                </div>
+                <div class="am-u-lg-12">
+                    <div class="am-input-group">
+                        <span class="am-input-group-label"><i class="am-icon-user am-icon-fw"></i></span>
+                        <input type="text" class="am-form-field" placeholder="Username">
+                    </div>
+                </div>
+                <div class="am-u-lg-12">
+                    <div class="am-input-group">
+                        <span class="am-input-group-label"><i class="am-icon-key am-icon-fw"></i></span>
+                        <input type="text" class="am-form-field" placeholder="PassWord">
+                    </div>
+                </div>
+            </div>
+            <div class="am-g am-margin-top-lg">
+                <div class="am-u-md-6 am-u-lg-6"><a class="login-link" href="###">忘记密码？</a></div>
+                <div class="am-u-md-6 am-u-lg-6">
+                    <button type="button" class="am-btn am-btn-primary am-btn-block">登陆</button>
+                </div>
+                </div>
+                <div class="am-u-lg-12">
+                    <div class="login-line">
+                        <span class="login-line-font">
+                            第三方登陆
+                        </span>
+                    </div>
+                </div>
+                <div class="am-u-md-12 am-u-lg-12 login-consociation">
+                    <div class="am-u-sm-4 am-u-md-4 am-u-lg-4"><a href="##" class="am-icon-btn am-primary am-icon-twitter am-center"></a></div>
+                    <div class="am-u-sm-4 am-u-lg-4"><a href="##" class="am-icon-btn am-success  am-icon-facebook  am-center"></a></div>
+                    <div class="am-u-sm-4 am-u-lg-4"><a href="##" class="am-icon-btn am-danger am-icon-youtube  am-center"></a></div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="login-info-cover">
+            <div class="login-info-cover-title">
+                Amaze UI 3.0
+                <div class="login-info-cover-title-small">欢迎使用 Amaze UI 3.0 New Style</div>
+                <div class="login-info-cover-line"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="assets/js/amazeui.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

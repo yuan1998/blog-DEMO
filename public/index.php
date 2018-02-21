@@ -1,6 +1,6 @@
-<?php 
+<?php
   session_start();
-  require_once('util/component/helper.php');
+  require_once('../util/component/helper.php');
   tpl('api/gateway');
 
   $uri = $_SERVER['REQUEST_URI'];
@@ -13,12 +13,12 @@
 
   switch($uri){
   	case '/':
-  		tpl('ui/page/home');
+  		tpl('ui/page/profile');
   		break;
-    case '/article/editor':
+    case 'article/editor':
       tpl('ui/page/editor');
       break;
-    case '/article/info':
+    case 'article/info':
       tpl('ui/page/article.info');
       break;
   	default:

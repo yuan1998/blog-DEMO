@@ -1,0 +1,23 @@
+{
+  "name": "blogDemoe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuan1998/blog-DEMO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuan1998/blog-DEMO/issues"
+  },
+  "homepage": "https://github.com/yuan1998/blog-DEMO#readme",
+  "description": "",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

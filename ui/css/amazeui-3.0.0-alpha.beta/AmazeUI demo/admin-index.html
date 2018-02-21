@@ -1,0 +1,303 @@
+<!doctype html>
+<html class="no-js fixed-layout">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Amaze UI Admin index Examples</title>
+  <meta name="description" content="这是一个 index 页面">
+  <meta name="keywords" content="index">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" href="assets/i/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+  <link rel="stylesheet" href="assets/css/amazeui.css"/>
+  <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+  以获得更好的体验！</p>
+<![endif]-->
+
+ <header class="am-topbar am-topbar-inverse">
+  <h1 class="am-topbar-brand">
+    <a href="#" class="am-text-ir"></a>
+  </h1>
+
+  <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse-2'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+  <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse-2">
+    <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+      <li><a href="javascript:;"><span class="am-mark"><span class="am-icon-bell"></span> 信息<sup>99+</sup></span></a></li>
+      <li class="am-dropdown" data-am-dropdown>
+        <a  class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+            <span class="am-mark"><span class="am-icon-calendar-check-o"></span> 进度<sup>12</sup></span>
+            <span class="am-icon-caret-down"></span>
+            </a>
+        <ul class="am-dropdown-content">
+          <li class="am-dropdown-header">进度列表</li>
+          <li><a href="#">Amaze UI</a></li>
+          <li class="am-active"><a href="#">Amaze UI Touch</a></li>
+          <li><a href="#">Amaze UI React</a></li>
+        </ul>
+      </li>
+      <li class="am-dropdown" data-am-dropdown>
+        <a  class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+            <img class="admin-user-ico" src="assets/img/user.png" alt=""> 禁言小张
+            <span class="am-icon-caret-down"></span>
+            </a>
+        <ul class="am-dropdown-content">
+          <li class="am-dropdown-header">个人资料</li>
+          <li><a href="#">资料设置</a></li>
+          <li class="am-active"><a href="#">个人中心</a></li>
+        </ul>
+      </li>
+      <li><a href="javascript:;"><span class="am-icon-close"></span> 退出</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="am-cf admin-main">
+  <!-- sidebar start -->
+  <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+    <div class="am-offcanvas-bar admin-offcanvas-bar">
+      <ul class="am-list admin-sidebar-list">
+         <li class="am-list-title">日常使用</li>
+            <li class="am-panel">
+                <a href="admin-index.html"><i class="am-list-ico am-icon-home am-margin-left-sm"></i> 首页</a>
+            </li>
+            
+  <li class="am-panel">
+    <a data-am-collapse="{parent: '#collapase-nav-1', target: '#user-nav'}">
+        <i class="am-list-ico am-icon-file am-margin-left-sm"></i> 页面 <i class="am-icon-angle-right am-fr am-margin-right"></i>
+    </a>
+    <ul class="am-list am-collapse admin-sidebar-sub" id="user-nav">
+        <li><a href="admin-form.html"><i class="am-list-ico am-icon-check am-margin-left-sm"></i> 表单 </a></li>
+        <li><a href="admin-table.html"><i class="am-list-ico am-icon-table am-margin-left-sm"></i> 表格 </a></li>
+    </ul>
+  </li>
+
+  <li class="am-list-title">其他分类</li>
+  <li class="am-panel">
+    <a href="admin-gallery.html">
+        <i class="am-list-ico am-icon-th am-margin-left-sm"></i> 相册 </i>
+    </a>
+  </li>
+  <li class="am-panel">
+    <a href="admin-404.html">
+        <i class="am-list-ico am-icon-bug am-margin-left-sm"></i> 404页面 </i>
+    </a>
+  </li>
+  <li class="am-panel">
+    <a href="login.html">
+        <i class="am-list-ico am-icon-key am-margin-left-sm"></i> 登陆</i>
+    </a>
+  </li>
+      </ul>
+    </div>
+  </div>
+  <!-- sidebar end -->
+
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding">
+        <ol class="am-breadcrumb">
+  <li><a href="#" class="am-icon-home">首页</a></li>
+  <li><a href="#">分类</a></li>
+  <li class="am-active">内容</li>
+</ol>
+      </div>
+
+      <ul class="am-avg-sm-1 am-avg-md-4 am-margin am-padding am-text-center admin-content-list am-text-sm">
+        <li><a href="#" class="am-text-success"><div data-am-progressbar="{percentage:'100', type: 'circle' , size: 'sm'}"></div><br/>上月进度<br/>100%</a></li>
+        <li><a href="#" class="am-text-primary"><div data-am-progressbar="{percentage:'40', type: 'circle' , size: 'sm'}"></div><br/>本月进度<br/>40%</a></li>
+        <li><a href="#" class="am-text-danger"><div data-am-progressbar="{percentage:'97', type: 'circle' , status:'danger' , size: 'sm'}"></div><br/>本周进度<br/>97%</a></li>
+        <li><a href="#" class="am-text-warning"><div data-am-progressbar="{percentage:'82', type: 'circle' , status:'warning' , size: 'sm'}"></div><br/>本日进度<br/>82%</a></li>
+      </ul>
+
+ <div class="am-g">
+        <div class="am-u-sm-12">
+          <table class="am-table am-table-bd am-table-striped admin-content-table">
+            <thead>
+            <tr>
+              <th>ID</th><th>名字</th><th>执行情况</th><th>提交</th><th>管理</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr><td>1</td><td>John Clark</td><td><a href="#">Business management</a></td> <td><span class="am-badge am-badge-success">+20</span></td>
+              <td>
+                <div class="am-dropdown" data-am-dropdown>
+                  <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                  <ul class="am-dropdown-content">
+                    <li><a href="#">1. 编辑</a></li>
+                    <li><a href="#">2. 下载</a></li>
+                    <li><a href="#">3. 删除</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+            <tr><td>2</td><td>淡淡</td><td><a href="#">LOGO设计</a> </td><td><span class="am-badge am-badge-danger">+2</span></td>
+              <td>
+                <div class="am-dropdown" data-am-dropdown>
+                  <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                  <ul class="am-dropdown-content">
+                    <li><a href="#">1. 编辑</a></li>
+                    <li><a href="#">2. 下载</a></li>
+                    <li><a href="#">3. 删除</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+            <tr><td>3</td><td>水浪</td><td><a href="#">业务原型</a></td><td><span class="am-badge am-badge-warning">+10</span></td>
+              <td>
+                <div class="am-dropdown" data-am-dropdown>
+                  <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                  <ul class="am-dropdown-content">
+                    <li><a href="#">1. 编辑</a></li>
+                    <li><a href="#">2. 下载</a></li>
+                    <li><a href="#">3. 删除</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+            <tr><td>4</td><td>小云</td><td><a href="#">云端分享</a></td><td><span class="am-badge am-badge-secondary">+50</span></td>
+              <td>
+                <div class="am-dropdown" data-am-dropdown>
+                  <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                  <ul class="am-dropdown-content">
+                    <li><a href="#">1. 编辑</a></li>
+                    <li><a href="#">2. 下载</a></li>
+                    <li><a href="#">3. 删除</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>5</td><td>洛奇</td>
+              <td><a href="#">原型设计</a></td>
+              <td><span class="am-badge">+22</span></td>
+              <td>
+                <div class="am-dropdown" data-am-dropdown>
+                  <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                  <ul class="am-dropdown-content">
+                    <li><a href="#">1. 编辑</a></li>
+                    <li><a href="#">2. 下载</a></li>
+                    <li><a href="#">3. 删除</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="am-g">
+  <div class="am-u-md-6">
+          <div class="am-panel am-panel-primary">
+    <div class="am-panel-hd">
+      <div class="am-panel-title">分享文件</div>
+    </div>
+    <div class="am-panel-bd">
+      <ul class="am-list admin-content-file admin-content-amendment">
+        <li>
+          <span class="am-icon-file-word-o"></span> 会议文件
+          <p class="am-text-xs ">文件大小：5MB 还需要 5 分钟  速度：1MB/秒</p>
+          <div data-am-progressbar="{percentage:'80', status:'danger'}"></div>
+        </li>
+        <li>
+          <span class="am-icon-file-pdf-o"></span> 《乘风破浪》电子版
+          <p class="am-text-xs ">文件大小：16MB</p>
+          <div data-am-progressbar="{percentage:'100'}"></div>
+        </li>
+        <li>
+          <span class="am-icon-file-pdf-o"></span> 旅游照片
+          <p class="am-text-xs ">文件大小：12MB</p>
+          <div data-am-progressbar="{percentage:'100'}"></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+        <div class="am-u-md-6">
+            <div class="am-panel am-panel-primary">
+    <div class="am-panel-hd">
+      <div class="am-panel-title">计划情况</div>
+    </div>
+    <div class="am-panel-bd">
+      <ul class="am-list admin-content-file">
+               <li>
+                  <div class="admin-task-meta"> CoolLook 计划 <span class="am-badge am-badge-success am-radius">mobilize</span></div>
+                  <div class="admin-task-bd">
+                    已与国内外很多厂商、方案商达成合作。和厂商的持续分成模式更稳定、长久。已经拿到全球相当数量的授权媒体，印度市场目前不存在资讯精准推送类产品，客观条件良好。
+                  </div>
+                  <div class="am-cf">
+                    <div class="am-btn-toolbar am-fl">
+                      <div class="am-btn-group am-btn-group-xs">
+                        <button type="button" class="am-btn am-btn-primary am-btn-default"><span class="am-icon-check"></span></button>
+                        <button type="button" class="am-btn am-btn-primary am-btn-default"><span class="am-icon-pencil"></span></button>
+                        <button type="button" class="am-btn am-btn-primary am-btn-default"><span class="am-icon-times"></span></button>
+                      </div>
+                    </div>
+                    <div class="am-fr">
+                      <button type="button" class="am-btn am-btn-danger am-btn-xs">删除</button>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="admin-task-meta"> 云分享 <span class="am-badge am-badge-success am-radius">Clo</span></div>
+                  <div class="admin-task-bd">
+                    已与国内外很多厂商、方案商达成合作。和厂商的持续分成模式更稳定、长久。已经拿到全球相当数量的授权媒体。
+                  </div>
+                  <div class="am-cf">
+                    <div class="am-btn-toolbar am-fl">
+                      <div class="am-btn-group am-btn-group-xs">
+                        <button type="button" class="am-btn am-btn-primary am-btn-default"><span class="am-icon-check"></span></button>
+                        <button type="button" class="am-btn am-btn-primary am-btn-default"><span class="am-icon-pencil"></span></button>
+                        <button type="button" class="am-btn am-btn-primary am-btn-default"><span class="am-icon-times"></span></button>
+                      </div>
+                    </div>
+                    <div class="am-fr">
+                      <button type="button" class="am-btn am-btn-danger am-btn-xs">删除</button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+    </div>
+  </div>
+
+          </div>
+     
+        </div>
+        
+      </div>
+    </div>
+
+    <footer class="admin-content-footer">
+      <hr>
+      <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+    </footer>
+  </div>
+  <!-- content end -->
+
+</div>
+
+<a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="assets/js/amazeui.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
