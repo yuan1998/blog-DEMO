@@ -210,6 +210,10 @@
     font-size: 16px !important;
 }
 
+.tel-bar{
+    display: none;
+}
+
 .tel-bar .bd{
     padding-left: 20px;
 }
@@ -245,6 +249,9 @@
         display: none !important;
     }
     .self-info-bar{
+        display: block;
+    }
+    .tel-bar{
         display: block;
     }
 }
