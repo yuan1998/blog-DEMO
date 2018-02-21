@@ -51,7 +51,7 @@
                                     <div class="item">
                                         <ul>
                                             <li class="l-hd">前后端分离、响应式项目：</li>
-                                            <li><a class="am-link" href="http://house.bibi.biaoyansu.com">房产类项目</a></li>
+                                            <li><a target="_blank" class="am-link" href="http://house.bibi.biaoyansu.com">房产类项目</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -199,7 +199,7 @@
                                 <div class="item">
                                     <ul>
                                         <li class="l-hd">前后端分离、响应式项目：</li>
-                                        <li><a class="am-link" href="http://house.bibi.biaoyansu.com">房产类项目</a></li>
+                                        <li><a target="_blank" class="am-link" href="http://house.bibi.biaoyansu.com">房产类项目</a></li>
                                     </ul>
                                 </div>
                             </div>
