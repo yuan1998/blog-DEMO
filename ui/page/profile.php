@@ -83,9 +83,11 @@
                                         </span>
                                     </div>
                                     <div class="item">
-                                        <i class="am-fl am-icon-qq"></i>
                                         <span>
-                                            976629445
+                                            <i class="am-fl am-icon-qq"></i>
+                                            <a class="am-link am-link-muted" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=976629445&site=qq&menu=yes">
+                                                976629445
+                                            </a>
                                         </span>
                                     </div>
                                     <div class="item">
