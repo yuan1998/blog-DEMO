@@ -161,20 +161,40 @@
 }
 
 .skill-bar .item .content{
-    display: inline-block;
-    height: 65px;
+
     border: 2px solid #51b2f9;
     margin-top: 0 !important;
     color:#666;
 
-    font-size: 15px;
+    font-size: 16px;
     padding-top: 5px;
     margin-bottom: 0;
     position:absolute;
     top: 0;
     left: 65px;
+    bottom: 0;
     right: 1vw;
 }
+.skill-bar .item .content.ul{
+
+}
+.skill-bar .item .content.div{
+    line-height: 61px;
+    display: none;
+}
+.skill-bar .item .content.div span{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    line-height: normal;
+}
+.skill-bar .item .content.div span:before{
+    content:"▪";
+    position:absolute;
+    top: 1px;
+    left: 5px;
+}
+
 .self-bar .bd{
     padding-top: 15px;
     padding-left: 10px;
@@ -253,5 +273,17 @@
     }
     .tel-bar{
         display: block;
+    }
+}
+@media only screen and (max-width: 525px) and (min-width: 0){
+    .skill-bar .item .content{
+        padding-top: 0 !important;
+        font-size: 14px !important;
+    }
+    .skill-bar .item .content.ul{
+        display: none  !important;
+    }
+    .skill-bar .item .content.div{
+        display: inline-block; !important;
     }
 }

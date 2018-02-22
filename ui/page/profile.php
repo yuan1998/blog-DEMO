@@ -120,12 +120,14 @@
                             <div class="bd">
                                 <div class="item">
                                     <div class="tag am-vertical-align">
-
                                         <span class=" am-vertical-align-middle">H5</span>
                                     </div>
-                                    <ul class="content am-vertical-align-middle">
-                                        <li>具有独立完成H5的经验</li>
+                                    <ul class="content ul am-vertical-align-middle">
+                                        <li >具有独立完成H5的经验</li>
                                     </ul>
+                                    <div class="content div">
+                                        <span class="">具有独立完成H5的经验</span>
+                                    </div>
                                 </div>
                                 <div class="item ">
                                     <div class="tag am-vertical-align">
@@ -134,10 +136,13 @@
                                         </span>
 
                                     </div>
-                                    <ul class="content am-vertical-align-middle">
-                                        <li>能熟练使用原生JS与Jquery、Vue、React等框架</li>
-                                        <li>具有独立完成项目能力</li>
+                                    <ul class="content ul am-vertical-align-middle">
+                                        <li >能熟练使用原生JS与Jquery、Vue、React等框架</li>
+                                        <li >具有独立完成项目能力</li>
                                     </ul>
+                                    <div class="content div">
+                                        <span class="">能熟练使用原生JS与Jquery、Vue、React等框架,具有独立完成项目能力</span>
+                                    </div>
                                 </div>
                                 <div class="item ">
                                     <div class="tag am-vertical-align">
@@ -146,10 +151,13 @@
                                         </span>
 
                                     </div>
-                                    <ul class="content am-vertical-align-middle">
-                                        <li>会使用Less、Sass等预处理器，和CSS3</li>
-                                        <li>响应式开发</li>
+                                    <ul class="content ul am-vertical-align-middle">
+                                        <li >会使用Less、Sass等预处理器，和CSS3</li>
+                                        <li >响应式开发</li>
                                     </ul>
+                                    <div class="content div">
+                                        <span >会使用Less、Sass等预处理器，和CSS3,响应式开发</span>
+                                    </div>
                                 </div>
                                 <div class="item">
                                     <div class="tag am-vertical-align">
@@ -157,10 +165,13 @@
                                             PHP
                                         </span>
                                     </div>
-                                    <ul class="content am-vertical-align-middle">
-                                        <li>能熟练使用原生PHP与Laravel、ThinkPHP等框架</li>
-                                        <li>具有独立完成项目能力</li>
+                                    <ul class="content ul am-vertical-align-middle">
+                                        <li >能熟练使用原生PHP与Laravel、ThinkPHP等框架</li>
+                                        <li >具有独立完成项目能力</li>
                                     </ul>
+                                    <div class="content div">
+                                        <span class="">能熟练使用原生PHP与Laravel、ThinkPHP等框架,具有独立完成项目能力</span>
+                                    </div>
                                 </div>
                                 <div class="item">
                                     <div class="tag am-vertical-align">
@@ -169,9 +180,12 @@
                                         </span>
 
                                     </div>
-                                    <ul class="content am-vertical-align-middle">
-                                        <li class="am-text-middle">会使用并操作数据库</li>
+                                    <ul class="content ul am-vertical-align-middle">
+                                        <li  class="">会使用并操作数据库</li>
                                     </ul>
+                                    <div class="content div">
+                                        <span class="">会使用并操作数据库</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
