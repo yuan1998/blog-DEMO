@@ -183,8 +183,8 @@
 
                                     </div>
                                     <ul class="content ul am-vertical-align-middle">
-                                        <li >熟练掌握Bootstrap等css框架,会使用Less、Sass预处理器，和CSS3</li>
-                                        <li >响应式开发</li>
+                                        <li >会使用Less、Sass预处理器，和CSS3</li>
+                                        <li >熟练掌握Bootstrap等css框架与响应式开发</li>
                                     </ul>
                                     <div class="content div">
                                         <span >熟练掌握Bootstrap等css框架,会使用Less、Sass预处理器，和CSS3,响应式开发</span>
