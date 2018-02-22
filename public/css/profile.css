@@ -10,7 +10,6 @@
 .avatar{
     height: 180px !important;
     width: 180px !important;
-
     border-radius: 160px !important;
     display: inline-block;
     background-image: url(../storage/me/avatar.jpeg) !important;
@@ -19,10 +18,10 @@
     background-repeat: no-repeat !important;
         background-position: 50%!important;
     display: inline-block!important;
-    background-color:#c4cac6;
-
-
+    background-color:#c4cac6 !important;
+    z-index: 5;
 }
+
 .left-bar{
     background: #fff;
     box-shadow: 4px -5px 5px 3px #e8e8e8;
@@ -293,6 +292,6 @@
         display: none  !important;
     }
     .skill-bar .item .content.div{
-        display: inline-block; !important;
+        display: inline-block !important;
     }
 }
