@@ -165,14 +165,13 @@
                                         <span class="am-vertical-align-middle">
                                             JS
                                         </span>
-
                                     </div>
                                     <ul class="content ul am-vertical-align-middle">
                                         <li >能熟练使用原生JS与Jquery库，Vue、React等框架</li>
-                                        <li >具有独立完成项目能力</li>
+                                        <li >组件式开发,具有独立完成项目能力</li>
                                     </ul>
                                     <div class="content div">
-                                        <span class="">能熟练使用原生JS与Jquery库，Vue、React等框架,具有独立完成项目能力</span>
+                                        <span class="">能熟练使用原生JS与Jquery库，Vue、React等框架,组件式开发,具有独立完成项目能力</span>
                                     </div>
                                 </div>
                                 <div class="item ">
