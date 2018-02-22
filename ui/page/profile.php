@@ -168,11 +168,11 @@
 
                                     </div>
                                     <ul class="content ul am-vertical-align-middle">
-                                        <li >能熟练使用原生JS与Jquery、Vue、React等框架</li>
+                                        <li >能熟练使用原生JS与Jquery库，Vue、React等框架</li>
                                         <li >具有独立完成项目能力</li>
                                     </ul>
                                     <div class="content div">
-                                        <span class="">能熟练使用原生JS与Jquery、Vue、React等框架,具有独立完成项目能力</span>
+                                        <span class="">能熟练使用原生JS与Jquery库，Vue、React等框架,具有独立完成项目能力</span>
                                     </div>
                                 </div>
                                 <div class="item ">
@@ -184,10 +184,10 @@
                                     </div>
                                     <ul class="content ul am-vertical-align-middle">
                                         <li >会使用Less、Sass预处理器，和CSS3</li>
-                                        <li >熟练掌握Bootstrap等css框架与响应式开发</li>
+                                        <li >熟练掌握Bootstrap等css库与响应式开发</li>
                                     </ul>
                                     <div class="content div">
-                                        <span >熟练掌握Bootstrap等css框架,会使用Less、Sass预处理器，和CSS3,响应式开发</span>
+                                        <span >熟练掌握Bootstrap等css库,会使用Less、Sass预处理器，和CSS3,响应式开发</span>
                                     </div>
                                 </div>
                                 <div class="item">
