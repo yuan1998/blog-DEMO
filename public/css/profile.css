@@ -290,6 +290,7 @@
     }
     .skill-bar .item .content.ul{
         display: none  !important;
+        opacity: 0;
     }
     .skill-bar .item .content.div{
         display: inline-block !important;
