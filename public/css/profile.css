@@ -8,11 +8,20 @@
 }
 
 .avatar{
-    height: 160px !important;
-    width: 160px !important;
-    background: #000;
+    height: 180px !important;
+    width: 180px !important;
+
     border-radius: 160px !important;
     display: inline-block;
+    background-image: url(../storage/me/avatar.jpeg) !important;
+    -webkit-background-size: cover !important;
+    background-size: auto 100% !important;
+    background-repeat: no-repeat !important;
+        background-position: 50%!important;
+    display: inline-block!important;
+    background-color:#c4cac6;
+
+
 }
 .left-bar{
     background: #fff;
